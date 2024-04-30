@@ -1,6 +1,6 @@
 function submitChat() {
     var input = document.getElementById('usermsg').value;
-    document.getElementById('usermsg').value = '';  // Clear input field
+    document.getElementById('usermsg').value = '';  
     addMessage(input, 'user');
 
     if (window.currentAction === 'applicationStatus') {
