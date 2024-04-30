@@ -38,11 +38,11 @@ body {
     display: inline-block;
     width: 30px;
     height: 30px;
-    line-height: 30px; /* Vertically center the text */
+    line-height: 30px; 
     background-color: #333;
     color: white;
     text-align: center;
-    border-radius: 50%; /* Makes the label circular */
+    border-radius: 50%; 
     font-weight: bold;
     margin-right: 10px;
     font-size: 14px;
@@ -50,8 +50,8 @@ body {
 
 .chat-message {
     display: inline-block;
-    max-width: 80%; /* Limit maximum width to 80% of chatlog width */
-    min-width: 20%; /* Minimum width to ensure smaller messages still look good */
+    max-width: 80%; 
+    min-width: 20%; 
     padding: 10px;
     background: #f1f1f1;
     border-radius: 18px;
@@ -59,15 +59,15 @@ body {
 }
 
 .bot .chat-message {
-    background: #e7e7e8; /* Light grey background for bot messages */
+    background: #e7e7e8; 
     align-self: flex-start;
 }
 
 .user .chat-message {
-    background-color: #007bff; /* Blue background for user messages */
+    background-color: #007bff; 
     color: white;
     align-self: flex-end;
-    margin-left: auto; /* Ensures right alignment */
+    margin-left: auto; 
 }
 
 .chat-form {
